@@ -11,8 +11,8 @@ function updateUI(users) {
     users.forEach(user => {
     // for each element, create a new div with data
      const newElement = `
-     <div class="card">
-     <div class="card-body">
+     <div class="card col-lg-4 col-md-6 col-sm-12">
+     <div class="card-body textCard">
         <h5 class="card-title">${user.username}</h5>
         <p class="card-text">Created by: ${user.name}</p>
       </div>

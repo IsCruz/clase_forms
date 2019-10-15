@@ -28,17 +28,21 @@
                 <label for="username">Username:</label>
                 <input class=" form-control" type="text" name="username" id="username">
         </div>
-        <div class="form-group">
+        <div class="form-group passwordBlock">
                 <label for="password">Password:</label>
                 <input class="form-control" type="password" name="password" id="password">
         </div>
-        <button class="btn btn-primary" id="register" type="submit" >
+        <div class="row">
+        <div class="col-lg-4 col-sm-1"></div>
+        <button class="btn btn-primary col-lg-4 col-sm-10" id="register" type="submit" >
             register
         </button>
+        <div class="col-lg-4 col-sm-1"></div>
+       </div>
     </form>
     <br>
     <h1 class="alert alert-dark">Some new Users Added Recently:</h1>
-    <div id="myUsers">
+    <div id="myUsers" class="row">
         <!-- Here Will be My Users From GET request-->
     </div>
 </div>
